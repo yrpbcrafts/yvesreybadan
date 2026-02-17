@@ -14,7 +14,7 @@ const initialDashboardData: DashboardData = {
 
 export const useDashboardStore = create<DashboardStoreInterface>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       ...initialDashboardData,
 
       updateStats: (stats: Partial<DashboardData["stats"]>) => {
