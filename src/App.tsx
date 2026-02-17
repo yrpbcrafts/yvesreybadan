@@ -4,7 +4,8 @@ import { ParticleBackground } from "@/components/backgrounds/particle-background
 function App() {
 
   return (
-    <><ParticleBackground />
+    <>
+      <ParticleBackground />
       <Router/>
     </>
   )
